@@ -1,0 +1,20 @@
+{
+  "name": "resiliency_explorer",
+  "label": "Resiliency Explorer",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.15.0",
+  "author": "High Street Consulting",
+  "description": "",
+  "copyright": "",
+  "dependency": "jimu-arcgis",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}

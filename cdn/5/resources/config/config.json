@@ -1,0 +1,245 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "92.3%",
+            "width": "100.0%",
+            "height": "7.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "7.7%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "92.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1",
+        "0"
+      ]
+    },
+    "layout_1": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {
+            "left": "3.2%",
+            "right": "43.2%",
+            "top": "13.0%",
+            "bottom": "12.7%",
+            "width": "53.6%",
+            "height": "74.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {
+            "left": "86.6%",
+            "right": "0.9%",
+            "top": "15.0%",
+            "bottom": "15.7%",
+            "width": "12.5%",
+            "height": "69.4%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ]
+    }
+  },
+  "exbVersion": "1.16.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.16.0",
+      "label": "Fixed Panel",
+      "config": null,
+      "id": "widget_1",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_1"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--org-body-bg)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_2": {
+      "uri": "widgets/resiliency_explorer/",
+      "version": "1.0.0",
+      "label": "Resiliency Explorer",
+      "config": {
+        "resilienceExplorerLayerPortalID": "ac54e32f0a7c48a29f4561f480cb5518"
+      },
+      "id": "widget_2"
+    },
+    "widget_3": {
+      "uri": "widgets/common/text/",
+      "version": "1.16.0",
+      "label": "title",
+      "config": {
+        "placeholder": "<p><span style=\"color: var(--light);\">Double click to edit text</span></p>",
+        "style": {
+          "color": "var(--light)"
+        },
+        "text": "<p><strong style=\"font-size: 1.8rem; color: var(--light); font-family: Arial;\">Transportation System Risk Map</strong></p>"
+      },
+      "id": "widget_3"
+    },
+    "widget_4": {
+      "uri": "widgets/common/image/",
+      "version": "1.16.0",
+      "label": "Image",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_4/1734549180922.png",
+            "originalUrl": "${appResourceUrl}/images/widget_4/1734549180922.png",
+            "fileName": "1734549180922.png",
+            "originalName": "UDOT main LOGO 1.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1734549180922",
+            "isUseCompress": false,
+            "originalWidth": 2748,
+            "originalHeight": 711
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_4"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://uplan.maps.arcgis.com"
+  },
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#5a87c6",
+      "color": "#ffffff"
+    },
+    "body": {
+      "bg": "#0b2444",
+      "color": "#ffffff",
+      "link": "#e86924"
+    },
+    "button": {
+      "bg": "#e86924",
+      "color": "#000000"
+    },
+    "logo": {
+      "small": "https://uplan.maps.arcgis.com/sharing/rest/content/items/c2e4887aab8a4cfcb0d88f84968bc9e3/data",
+      "link": "https://udot.utah.gov"
+    }
+  },
+  "dataSources": {},
+  "originExbVersion": "1.16.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "customTheme": {
+    "typography": {
+      "fontFamilyBase": "Arial"
+    }
+  },
+  "timestamp": 1734549188429
+}
